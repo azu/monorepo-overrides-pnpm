@@ -27,3 +27,9 @@ $ pnpm ls
 dependencies:
 react 18.2.0
 ```
+
+## Note
+
+npm's `overrides` feature is not supported in monorepo.
+
+- [azu/monorepo-overrides](https://github.com/azu/monorepo-overrides)
