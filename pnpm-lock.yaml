@@ -6,6 +6,7 @@ settings:
 
 overrides:
   react: 18.2.0
+  app-c>react: 18.0.0
 
 importers:
 
@@ -27,6 +28,12 @@ importers:
         specifier: 18.2.0
         version: 18.2.0
 
+  packages/app-c:
+    dependencies:
+      react:
+        specifier: 18.0.0
+        version: 18.0.0
+
 packages:
 
   /js-tokens@4.0.0:
@@ -38,6 +45,13 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
+
+  /react@18.0.0:
+    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
     dev: false
 
   /react@18.2.0:

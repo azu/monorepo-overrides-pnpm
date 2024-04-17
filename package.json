@@ -14,7 +14,8 @@
   },
   "pnpm": {
     "overrides": {
-      "react": "$react"
+      "react": "$react",
+      "app-c>react": "18.0.0"
     }
   }
 }
