@@ -6,7 +6,7 @@ settings:
 
 overrides:
   jquery: 3.7.1
-  react: 18.0.0
+  react: 18.2.0
   react-dom: 18.0.0
   app-c>react: 18.0.0
 
@@ -20,23 +20,23 @@ importers:
         specifier: 3.7.1
         version: 3.7.1
       react:
-        specifier: 18.0.0
-        version: 18.0.0
+        specifier: 18.2.0
+        version: 18.2.0
 
   packages/app-b:
     dependencies:
       react:
-        specifier: 18.0.0
-        version: 18.0.0
+        specifier: 18.2.0
+        version: 18.2.0
 
   packages/app-c:
     dependencies:
       react:
-        specifier: 18.0.0
-        version: 18.0.0
+        specifier: 18.2.0
+        version: 18.2.0
       react-dom:
         specifier: 18.0.0
-        version: 18.0.0(react@18.0.0)
+        version: 18.0.0(react@18.2.0)
 
 packages:
 
@@ -55,18 +55,18 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /react-dom@18.0.0(react@18.0.0):
+  /react-dom@18.0.0(react@18.2.0):
     resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
     peerDependencies:
-      react: 18.0.0
+      react: 18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.0.0
+      react: 18.2.0
       scheduler: 0.21.0
     dev: false
 
-  /react@18.0.0:
-    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
+  /react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
