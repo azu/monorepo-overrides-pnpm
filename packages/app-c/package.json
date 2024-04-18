@@ -1,5 +1,5 @@
 {
-  "name": "app-c",
+  "name": "@monorepo/app-c",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react": "*"
+    "react": "*",
+    "react-dom": "*"
   },
   "author": "azu",
   "license": "MIT"

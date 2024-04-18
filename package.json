@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-overrides-pnpm",
+  "name": "root",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,14 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "3.7.1",
-    "react": "18.2.0"
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   },
   "pnpm": {
     "overrides": {
-      "jquery": "3.7.1",
+      "jquery": "$jquery",
       "react": "$react",
+      "react-dom": "$react-dom",
       "app-c>react": "18.0.0"
     }
   },
