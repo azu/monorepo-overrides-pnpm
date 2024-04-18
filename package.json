@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "azu",
   "license": "MIT",
-  "optionalDependencies": {
+  "dependencies": {
     "jquery": "3.7.1",
     "react": "18.2.0"
   },
