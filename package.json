@@ -11,7 +11,7 @@
   "license": "MIT",
   "optionalDependencies": {
     "jquery": "3.7.1",
-    "react": "18.0.0"
+    "react": "18.2.0"
   },
   "pnpm": {
     "overrides": {
@@ -20,5 +20,5 @@
       "app-c>react": "18.0.0"
     }
   },
-  "packageManager": "pnpm@9.0.2"
+  "packageManager": "pnpm@8.15.7"
 }
