@@ -9,13 +9,16 @@
   "keywords": [],
   "author": "azu",
   "license": "MIT",
-  "dependencies": {
-    "react": "18.2.0"
+  "optionalDependencies": {
+    "jquery": "3.7.1",
+    "react": "18.0.0"
   },
   "pnpm": {
     "overrides": {
+      "jquery": "3.7.1",
       "react": "$react",
       "app-c>react": "18.0.0"
     }
-  }
+  },
+  "packageManager": "pnpm@9.0.2"
 }

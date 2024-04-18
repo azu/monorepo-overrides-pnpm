@@ -28,8 +28,15 @@ dependencies:
 react 18.2.0
 ```
 
+## Install app-c only
+
+```
+pnpm i --filter "./packages/app-c" --config.dedupe-peer-dependents=false --no-optional
+```
+
 ## Note
 
 npm's `overrides` feature is not supported in monorepo.
 
 - [azu/monorepo-overrides](https://github.com/azu/monorepo-overrides)
+
