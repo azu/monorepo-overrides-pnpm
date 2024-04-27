@@ -9,11 +9,15 @@ overrides:
   react: 18.3.0
   react-dom: 18.3.0
   app-c>react: 18.0.0
+  commander: ^12.0.0
 
 importers:
 
   .:
     dependencies:
+      commander:
+        specifier: ^12.0.0
+        version: 12.0.0
       jquery:
         specifier: 3.7.1
         version: 3.7.1
@@ -42,7 +46,7 @@ importers:
   packages/app-c:
     dependencies:
       commander:
-        specifier: '*'
+        specifier: ^12.0.0
         version: 12.0.0
       react:
         specifier: 18.3.0

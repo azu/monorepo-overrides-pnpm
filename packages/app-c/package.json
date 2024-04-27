@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react": "*",
-    "react-dom": "*",
-    "commander": "*"
+    "commander": "workspace:*",
+    "react": "workspace:*",
+    "react-dom": "workspace:*"
   },
   "author": "azu",
   "license": "MIT"

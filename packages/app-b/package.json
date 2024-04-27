@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react": "*"
+    "react": "workspace:*"
   },
   "author": "azu",
   "license": "MIT"
