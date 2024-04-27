@@ -11,6 +11,7 @@
  *
  * $ NO_ROOT_DEPENDENCIES=true pnpm install --config.dedupe-peer-dependents --filter=./packages/app-a
  *
+ * Ref: https://github.com/pnpm/pnpm/issues/6300
  **/
 const rootPkg = require('./package.json')
 
