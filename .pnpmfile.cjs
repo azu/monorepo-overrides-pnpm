@@ -9,7 +9,7 @@
  *
  * ### Install only specific package
  *
- * $ NO_ROOT_DEPENEDECIES=true pnpm install --config.dedupe-peer-dependents --filter=./packages/app-a
+ * $ NO_ROOT_DEPENDENCIES=true pnpm install --config.dedupe-peer-dependents --filter=./packages/app-a
  *
  **/
 const rootPkg = require('./package.json')
@@ -69,7 +69,7 @@ It changes the version to "workspace:*" in the package.json of the workspace pac
         ;
     }
     // if the pkg is root, remove dependencies/peerDependencies/devDependencies
-    if (process.env.NO_ROOT_DEPENEDECIES) {
+    if (process.env.NO_ROOT_DEPENDENCIES) {
         if (pkg.name === rootPkg.name) {
             ["dependencies", "peerDependencies", "devDependencies"].forEach((depType) => {
                 delete pkg[depType]
