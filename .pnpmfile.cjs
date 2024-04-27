@@ -13,6 +13,7 @@
  *
  **/
 const rootPkg = require('./package.json')
+
 function readPackage(pkg, context) {
     // if the pkg is not root and rootPkg's overrides does not define the dependencies/peerDependencies/devDependencies, throw error
     if (pkg.name !== rootPkg.name && pkg.name.startsWith("@monorepo/")) {
@@ -65,10 +66,9 @@ It changes the version to "workspace:*" in the package.json of the workspace pac
                     )
                 }
             }
-        )
-        ;
+        );
     }
-    // if the pkg is root, remove dependencies/peerDependencies/devDependencies
+    // fast path
     if (process.env.NO_ROOT_DEPENDENCIES) {
         if (pkg.name === rootPkg.name) {
             ["dependencies", "peerDependencies", "devDependencies"].forEach((depType) => {
