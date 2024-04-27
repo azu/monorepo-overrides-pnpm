@@ -12,7 +12,17 @@ overrides:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      jquery:
+        specifier: 3.7.1
+        version: 3.7.1
+      react:
+        specifier: 18.3.0
+        version: 18.3.0
+      react-dom:
+        specifier: 18.3.0
+        version: 18.3.0(react@18.3.0)
 
   packages/app-a:
     dependencies:
@@ -31,6 +41,9 @@ importers:
 
   packages/app-c:
     dependencies:
+      commander:
+        specifier: '*'
+        version: 12.0.0
       react:
         specifier: 18.3.0
         version: 18.3.0
@@ -39,6 +52,11 @@ importers:
         version: 18.3.0(react@18.3.0)
 
 packages:
+
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
+    dev: false
 
   /jquery@3.7.1:
     resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
