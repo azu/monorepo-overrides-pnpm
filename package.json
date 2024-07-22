@@ -16,7 +16,7 @@
   },
   "pnpm": {
     "overrides": {
-      "jquery": "3.0.0",
+      "jquery": "3.7.1",
       "react": "18.3.0",
       "react-dom": "18.3.0",
       "@monorepo/app-c>react": "18.0.0",
