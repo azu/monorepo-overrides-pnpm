@@ -12,8 +12,6 @@ overrides:
   '@monorepo/app-c>react-dom': 18.0.0
   commander: 12.0.0
 
-pnpmfileChecksum: ao25r5ee6o2r3pnhlc47ebwntm
-
 importers:
 
   .:
