@@ -12,7 +12,7 @@
   "author": "azu",
   "license": "MIT",
   "devDependencies": {
-    "lint-staged": "16.2.1"
+    "lint-staged": "16.2.3"
   },
   "pnpm": {
     "overrides": {
